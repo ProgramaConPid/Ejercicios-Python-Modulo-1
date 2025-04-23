@@ -1,5 +1,3 @@
-"""
-
 # 1. Intercambio de valores
 
 valor_1 = int(input('Ingresa el primer valor: '))
@@ -126,8 +124,6 @@ elif num_usuario % 5 == 0:
     print("Buzz")
 else:
     print(num_usuario)
-
-"""
 
 # 11. Entrada al club unicornio ninja
 
