@@ -145,4 +145,16 @@ elif edad_usuario < 18 and edad_usuario > 0:
     print("No cuentas con la edad requerida para ingresar al club!")
 else:
     print("ERROR - Ingresaste una edad invalida.")
+
+# 12. Area y perimetro de un circulo
+
+import math
+
+radio_circulo = float(input("Ingresa el radio de la circunferencia: "))
+pi = math.pi
+
+perimetro_circulo = pi * radio_circulo
+area_circulo = pi * (radio_circulo ** 2)
+
+print(f"El perimetro de la circunferencia es: {round(perimetro_circulo, 2)} y El area es: {round(area_circulo, 2)}")
     
